@@ -1,0 +1,51 @@
+.InfoPaper {
+  padding: 24px;
+}
+
+.legend {
+  display: grid;
+  padding-top: 16px;
+  grid-template-columns: 8px auto min-content;
+  align-items: center;
+  grid-gap: 16px 8px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.legend .color {
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.legend .description {
+  font-weight: 600;
+}
+
+.legend .description_selected_red {
+  cursor: pointer;
+  padding-bottom: 3px;
+  border-bottom: 3px solid red;
+  width: fit-content;
+}
+
+.legend .description_selected_blue {
+  cursor: pointer;
+  padding-bottom: 3px;
+  border-bottom: 3px solid blue;
+  width: fit-content;
+}
+
+.legend .description_selected_gray {
+  cursor: pointer;
+  padding-bottom: 3px;
+  border-bottom: 3px solid gray;
+  width: fit-content;
+}
+
+.legend .total {
+  color: #767676;
+  display: flex;
+  align-items: center;
+}

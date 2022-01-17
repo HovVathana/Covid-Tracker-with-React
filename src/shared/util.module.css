@@ -1,0 +1,83 @@
+.topToolTip {
+  padding: 10px 10px;
+  color: #000000;
+  font-weight: normal;
+  font-size: 13px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.titleInfoBox {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 7px;
+}
+
+.titleInfoBox_dark {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 7px;
+}
+
+.statLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  min-width: 160px;
+}
+
+.stat {
+  flex: 1;
+  margin-right: 24px;
+  height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.stat_dark {
+  flex: 1;
+  margin-right: 24px;
+  height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(187, 173, 173);
+}
+
+.statCount {
+  height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: right;
+  color: gray;
+}
+
+.legendColor {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.ongoing {
+  background-color: #f4c363;
+}
+
+.recovered {
+  background-color: #60bb69;
+}
+
+.fatal {
+  background-color: #767676;
+}
+
+.marker:hover {
+  cursor: pointer;
+}

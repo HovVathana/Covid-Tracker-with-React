@@ -1,0 +1,48 @@
+.MobileMenu {
+  margin-top: 500px;
+  position: absolute;
+  min-height: 276px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 40px 40px 0px 0px;
+  box-sizing: border-box;
+  z-index: 100;
+  position: absolute;
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: transparent !important;
+  backdrop-filter: blur(10px);
+}
+
+.MobileRoot {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* background-color: #c8c8c8; */
+  background-color: transparent !important;
+}
+
+.MobilePullbar {
+  height: 5px;
+  width: 75px;
+  /* background-color: #c4c4c4; */
+  background-color: transparent !important;
+
+  border-radius: 100px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.WorldMap {
+  position: fixed;
+  height: 778px;
+  width: 100%;
+}
+/* 
+:root {
+  color-scheme: dark;
+} */
