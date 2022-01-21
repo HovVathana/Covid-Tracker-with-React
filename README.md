@@ -1,5 +1,5 @@
 ## Covid Tracker with React 
-#### Features: Real-time data fetching, clean stat visualization with table, pie chart, line graph, and bar chart, map with marker...etc.
+#### Features: Real-time data fetching, clean stat visualization with table, pie chart, line graph, and bar chart, map with marker, dark and light mode that store data in your local storage...etc.
 Try [Live Demo](https://vathana-corona-tracker.netlify.app).
 
 ## Dependencies
